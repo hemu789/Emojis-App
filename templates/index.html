@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="{{ url_for('serve_static', path=random_png) }}" alt="Random image">
+
+</body>
+</html>
